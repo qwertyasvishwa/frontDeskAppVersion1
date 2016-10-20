@@ -1,0 +1,6 @@
+framework module Pods_envoy {
+  umbrella header "Pods-envoy-umbrella.h"
+
+  export *
+  module * { export * }
+}
