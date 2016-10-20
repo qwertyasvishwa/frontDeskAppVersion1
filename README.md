@@ -4,3 +4,8 @@ The uploaded version is in Swift 2, Xcode 7 and Alamofire 3.0
 Now this has been depricated.
 Current version is Swift 3, you probably usig Xcode 8 and Alamofire 4.0
 
+I am using MySQL as my backend on my own personal server for just for the testing point of view.
+
+Very soon uploading the updated version with updated requirements.
+Stay tuned.
+
