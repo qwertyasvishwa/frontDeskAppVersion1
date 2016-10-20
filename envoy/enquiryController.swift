@@ -182,7 +182,7 @@ class enquiryController: UITableViewController, UIPickerViewDataSource, UIPicker
         print("\(parameters)")
         
         
-        Alamofire.request(.POST, "http://vishwaraj.xyz/test/ienquiry.php", parameters: parameters)
+        Alamofire.request(.POST, "URL/test/ienquiry.php", parameters: parameters)
             
             .responseJSON { (response: Response<AnyObject, NSError>) in
                 print(response.request)  // original URL request
@@ -197,7 +197,7 @@ class enquiryController: UITableViewController, UIPickerViewDataSource, UIPicker
         print("\(parameters)")
         
         
-        Alamofire.request(.POST, "http://vishwaraj.xyz/test/index.php", parameters: myparameters)
+        Alamofire.request(.POST, "URL/test/index.php", parameters: myparameters)
         
         self.performSegueWithIdentifier("enquiryfinal", sender: nil)
         
